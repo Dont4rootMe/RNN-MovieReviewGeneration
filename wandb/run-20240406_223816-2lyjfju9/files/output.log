@@ -1,0 +1,7 @@
+
+Epoch: 1/15. Loss (Train/Test): 0.031/0.006. Accuracy (Train/Test): 0.278/0.278
+Epoch: 2/15. Loss (Train/Test): 0.027/0.006. Accuracy (Train/Test): 0.339/0.330
+[{"variableName": "batch", "type": "dictionary", "supportedEngines": ["pandas"]}]
+[{"variableName": "batch", "type": "dictionary", "supportedEngines": ["pandas"]}]
+[{"variableName": "batch", "type": "dictionary", "supportedEngines": ["pandas"]}]
+[{"variableName": "batch", "type": "dictionary", "supportedEngines": ["pandas"]}]

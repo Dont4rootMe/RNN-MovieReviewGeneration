@@ -1,0 +1,558 @@
+2024-04-07 10:05:59,624 INFO    StreamThr :56084 [internal.py:wandb_internal():86] W&B internal server running at pid: 56084, started at: 2024-04-07 10:05:59.624491
+2024-04-07 10:05:59,625 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status
+2024-04-07 10:05:59,625 INFO    WriterThread:56084 [datastore.py:open_for_write():87] open: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/run-di4aj73t.wandb
+2024-04-07 10:05:59,626 DEBUG   SenderThread:56084 [sender.py:send():379] send: header
+2024-04-07 10:05:59,626 DEBUG   SenderThread:56084 [sender.py:send():379] send: run
+2024-04-07 10:06:00,264 INFO    SenderThread:56084 [dir_watcher.py:__init__():211] watching files in: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files
+2024-04-07 10:06:00,264 INFO    SenderThread:56084 [sender.py:_start_run_threads():1124] run started: di4aj73t with start time 1712473559.624241
+2024-04-07 10:06:00,269 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: check_version
+2024-04-07 10:06:00,269 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: check_version
+2024-04-07 10:06:00,581 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: run_start
+2024-04-07 10:06:00,582 DEBUG   HandlerThread:56084 [system_info.py:__init__():26] System info init
+2024-04-07 10:06:00,582 DEBUG   HandlerThread:56084 [system_info.py:__init__():41] System info init done
+2024-04-07 10:06:00,582 INFO    HandlerThread:56084 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 10:06:00,582 INFO    SystemMonitor:56084 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 10:06:00,582 INFO    HandlerThread:56084 [system_monitor.py:probe():214] Collecting system info
+2024-04-07 10:06:00,583 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 10:06:00,584 DEBUG   HandlerThread:56084 [system_info.py:probe():150] Probing system
+2024-04-07 10:06:00,584 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started disk monitoring
+2024-04-07 10:06:00,585 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-07 10:06:00,585 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started memory monitoring
+2024-04-07 10:06:00,588 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started network monitoring
+2024-04-07 10:06:00,589 DEBUG   HandlerThread:56084 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-07 10:06:00,589 DEBUG   HandlerThread:56084 [system_info.py:probe():198] Probing system done
+2024-04-07 10:06:00,589 DEBUG   HandlerThread:56084 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-arm64-arm-64bit', 'python': '3.11.5', 'heartbeatAt': '2024-04-07T07:06:00.584122', 'startedAt': '2024-04-07T07:05:59.621838', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'Artems-MacBook-Pro.local', 'username': 'artemon', 'executable': '/Users/artemon/.local/share/virtualenvs/RNN-j8Y16Los/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'cpu_freq': {'current': 3228, 'min': 600, 'max': 3228}, 'cpu_freq_per_core': [{'current': 3228, 'min': 600, 'max': 3228}], 'disk': {'/': {'total': 926.3517189025879, 'used': 9.539703369140625}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 32.0}}
+2024-04-07 10:06:00,590 INFO    HandlerThread:56084 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-07 10:06:00,590 INFO    HandlerThread:56084 [system_monitor.py:probe():227] Publishing system info
+2024-04-07 10:06:00,590 INFO    HandlerThread:56084 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-07 10:06:00,591 DEBUG   SenderThread:56084 [sender.py:send():379] send: files
+2024-04-07 10:06:00,591 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-07 10:06:00,634 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-07 10:06:00,634 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: python_packages
+2024-04-07 10:06:00,634 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:06:00,634 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:06:00,634 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:06:00,993 DEBUG   SenderThread:56084 [sender.py:send():379] send: telemetry
+2024-04-07 10:06:01,268 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-metadata.json
+2024-04-07 10:06:01,268 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/requirements.txt
+2024-04-07 10:06:01,421 INFO    wandb-upload_0:56084 [upload_job.py:push():131] Uploaded file /var/folders/hk/5434dpv95nl2rxl497d7c0lm0000gn/T/tmpnf2oyy_dwandb/sdy55zns-wandb-metadata.json
+2024-04-07 10:06:05,008 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:06:10,025 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:06:14,459 DEBUG   SenderThread:56084 [sender.py:send():379] send: telemetry
+2024-04-07 10:06:14,462 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:06:15,465 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:06:15,636 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:06:15,636 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:06:15,638 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:06:20,911 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:06:25,929 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:06:28,734 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:06:28,735 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:06:28,735 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:06:28,736 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:06:29,380 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:06:30,639 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:06:30,640 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:06:30,644 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:06:31,877 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:06:32,388 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/config.yaml
+2024-04-07 10:06:37,140 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:06:42,159 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:06:42,572 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:06:42,572 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:06:42,572 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:06:42,573 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:06:43,439 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:06:45,641 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:06:45,641 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:06:45,649 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:06:47,887 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:06:52,911 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:06:55,948 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:06:55,949 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:06:55,949 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:06:55,950 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:06:56,520 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:06:57,956 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:07:00,591 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 10:07:00,591 DEBUG   SenderThread:56084 [sender.py:send():379] send: telemetry
+2024-04-07 10:07:00,591 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:07:00,646 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:07:00,646 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:07:00,652 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:07:03,069 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:07:03,564 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/config.yaml
+2024-04-07 10:07:08,330 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:07:09,067 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:07:09,068 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:07:09,068 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:07:09,069 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:07:09,601 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:07:14,106 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:07:15,647 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:07:15,647 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:07:15,662 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:07:19,935 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:07:22,152 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:07:22,152 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:07:22,152 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:07:22,153 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:07:22,666 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:07:25,167 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:07:30,191 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:07:30,602 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:07:30,650 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:07:30,650 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:07:30,666 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:07:35,195 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:07:35,196 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:07:35,196 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:07:35,196 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:07:35,197 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:07:35,764 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:07:40,223 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:07:45,258 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:07:45,653 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:07:45,653 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:07:45,676 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:07:50,997 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:07:56,039 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:08:00,613 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:08:00,656 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:08:00,656 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:08:00,677 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:08:01,914 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:08:06,940 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:08:11,973 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:08:15,659 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:08:15,659 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:08:15,680 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:08:17,965 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:08:22,999 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:08:28,023 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:08:30,622 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:08:30,661 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:08:30,661 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:08:30,683 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:08:33,986 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:08:33,987 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:08:33,987 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:08:33,987 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:08:33,987 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:08:34,093 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:08:34,093 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/output.log
+2024-04-07 10:08:36,071 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:08:36,071 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:08:36,071 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:08:36,072 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:08:36,096 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/output.log
+2024-04-07 10:08:36,096 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:08:39,090 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:08:44,112 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:08:45,670 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:08:45,671 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:08:45,691 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:08:49,110 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:08:49,110 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:08:49,110 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:08:49,111 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:08:49,168 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:08:50,112 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:08:55,153 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:09:00,180 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:09:00,624 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:09:00,680 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:09:00,680 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:09:00,693 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:09:02,032 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:09:02,033 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:09:02,033 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:09:02,033 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:09:02,235 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:09:06,056 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:09:11,090 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:09:15,028 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:09:15,028 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:09:15,029 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:09:15,029 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:09:15,323 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:09:15,684 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:09:15,685 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:09:15,696 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:09:16,982 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:09:22,013 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:09:27,032 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:09:27,992 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:09:27,992 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:09:27,992 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:09:27,993 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:09:28,422 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:09:30,635 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:09:30,695 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:09:30,695 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:09:30,699 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:09:32,123 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:09:37,162 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:09:40,956 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:09:40,957 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:09:40,957 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:09:40,957 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:09:41,512 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:09:42,968 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:09:45,697 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:09:45,697 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:09:45,700 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:09:48,954 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:09:53,998 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:09:54,085 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:09:54,085 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:09:54,085 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:09:54,085 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:09:54,600 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:09:59,115 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:10:00,646 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:10:00,700 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:10:00,700 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:10:00,705 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:10:05,027 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:10:07,070 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:10:07,071 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:10:07,071 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:10:07,072 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:10:07,667 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:10:10,088 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:10:15,110 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:10:15,702 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:10:15,703 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:10:15,707 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:10:21,000 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:10:26,028 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:10:30,647 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:10:30,705 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:10:30,705 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:10:30,710 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:10:31,937 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:10:36,961 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:10:41,980 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:10:45,713 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:10:45,715 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:10:45,715 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:10:47,030 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:10:52,073 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:10:57,106 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:11:00,658 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:11:00,716 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:11:00,717 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:11:00,717 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:11:02,967 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:11:04,258 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:11:04,259 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:11:04,259 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:11:04,259 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:11:05,020 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/output.log
+2024-04-07 10:11:05,020 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:11:08,284 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:11:08,726 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:11:08,726 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:11:08,726 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:11:08,727 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:11:09,052 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:11:13,774 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:11:15,719 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:11:15,719 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:11:15,726 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:11:19,060 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:11:21,790 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:11:21,790 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:11:21,790 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:11:21,791 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:11:22,128 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:11:24,807 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:11:29,842 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:11:30,669 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:11:30,722 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:11:30,722 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:11:30,727 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:11:34,704 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:11:34,704 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:11:34,704 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:11:34,705 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:11:35,196 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:11:35,708 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:11:40,736 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:11:45,725 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:11:45,725 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:11:45,732 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:11:46,037 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:11:47,674 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:11:47,674 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:11:47,674 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:11:47,675 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:11:48,285 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:11:51,693 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:11:56,729 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:12:00,663 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:12:00,663 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:12:00,663 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:12:00,664 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:12:00,679 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:12:00,728 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:12:00,728 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:12:00,735 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:12:01,362 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:12:02,034 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:12:07,085 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:12:12,117 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:12:13,695 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:12:13,696 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:12:13,696 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:12:13,696 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:12:14,434 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:12:15,738 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:12:15,738 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:12:15,741 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:12:17,997 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:12:23,046 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:12:26,728 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-07 10:12:26,728 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:12:26,728 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:12:26,728 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:12:27,525 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:12:28,735 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:12:30,690 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:12:30,744 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:12:30,744 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:12:30,750 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:12:34,069 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:12:39,090 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:12:40,919 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: pause
+2024-04-07 10:12:40,920 INFO    HandlerThread:56084 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-07 10:12:40,920 INFO    HandlerThread:56084 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 10:12:40,920 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 10:12:40,920 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 10:12:40,920 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 10:12:40,920 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined disk monitor
+2024-04-07 10:12:40,921 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-07 10:12:40,921 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined memory monitor
+2024-04-07 10:12:40,921 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined network monitor
+2024-04-07 10:12:40,921 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:12:44,941 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:12:45,133 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: resume
+2024-04-07 10:12:45,133 INFO    HandlerThread:56084 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-07 10:12:45,133 INFO    HandlerThread:56084 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 10:12:45,133 INFO    SystemMonitor:56084 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 10:12:45,133 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 10:12:45,133 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started disk monitoring
+2024-04-07 10:12:45,136 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-07 10:12:45,138 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: pause
+2024-04-07 10:12:45,139 INFO    HandlerThread:56084 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-07 10:12:45,139 INFO    HandlerThread:56084 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 10:12:45,139 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started memory monitoring
+2024-04-07 10:12:45,139 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 10:12:45,139 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 10:12:45,139 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined disk monitor
+2024-04-07 10:12:45,139 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 10:12:45,140 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 10:12:46,292 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-07 10:12:46,292 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined memory monitor
+2024-04-07 10:12:46,292 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: resume
+2024-04-07 10:12:46,292 INFO    HandlerThread:56084 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-07 10:12:46,292 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:12:46,292 INFO    HandlerThread:56084 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 10:12:46,293 INFO    SystemMonitor:56084 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 10:12:46,293 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: pause
+2024-04-07 10:12:46,293 INFO    HandlerThread:56084 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-07 10:12:46,293 INFO    HandlerThread:56084 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 10:12:46,293 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 10:12:46,293 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 10:12:46,293 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 10:12:46,293 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 10:12:46,293 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 10:12:46,293 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 10:12:46,293 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:12:46,294 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: resume
+2024-04-07 10:12:46,294 INFO    HandlerThread:56084 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-07 10:12:46,294 INFO    HandlerThread:56084 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 10:12:46,294 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 10:12:46,294 INFO    SystemMonitor:56084 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 10:12:46,294 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: pause
+2024-04-07 10:12:46,295 INFO    HandlerThread:56084 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-07 10:12:46,295 INFO    HandlerThread:56084 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 10:12:46,295 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 10:12:46,295 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 10:12:46,295 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 10:12:46,295 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 10:12:46,295 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 10:12:46,540 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:12:47,147 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: resume
+2024-04-07 10:12:47,147 INFO    HandlerThread:56084 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-07 10:12:47,147 INFO    HandlerThread:56084 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 10:12:47,147 INFO    SystemMonitor:56084 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 10:12:47,147 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 10:12:47,147 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started disk monitoring
+2024-04-07 10:12:47,148 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-07 10:12:47,151 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started memory monitoring
+2024-04-07 10:12:47,152 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: pause
+2024-04-07 10:12:47,152 INFO    HandlerThread:56084 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-07 10:12:47,152 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started network monitoring
+2024-04-07 10:12:47,152 INFO    HandlerThread:56084 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 10:12:47,153 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 10:12:47,153 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 10:12:47,153 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 10:12:47,153 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined disk monitor
+2024-04-07 10:12:47,153 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 10:12:47,612 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/output.log
+2024-04-07 10:12:48,291 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-07 10:12:48,291 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined memory monitor
+2024-04-07 10:12:48,291 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined network monitor
+2024-04-07 10:12:48,292 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:12:50,302 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:12:50,577 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: resume
+2024-04-07 10:12:50,577 INFO    HandlerThread:56084 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-07 10:12:50,577 INFO    HandlerThread:56084 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 10:12:50,577 INFO    SystemMonitor:56084 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 10:12:50,578 DEBUG   SenderThread:56084 [sender.py:send():379] send: telemetry
+2024-04-07 10:12:50,578 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 10:12:50,578 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started disk monitoring
+2024-04-07 10:12:50,579 DEBUG   SenderThread:56084 [sender.py:send():379] send: exit
+2024-04-07 10:12:50,579 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-07 10:12:50,579 INFO    SenderThread:56084 [sender.py:send_exit():586] handling exit code: 0
+2024-04-07 10:12:50,582 INFO    SenderThread:56084 [sender.py:send_exit():588] handling runtime: 402
+2024-04-07 10:12:50,582 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started memory monitoring
+2024-04-07 10:12:50,584 INFO    SystemMonitor:56084 [interfaces.py:start():190] Started network monitoring
+2024-04-07 10:12:50,584 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:12:50,584 INFO    SenderThread:56084 [sender.py:send_exit():594] send defer
+2024-04-07 10:12:50,584 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:50,584 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-07 10:12:50,584 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:50,584 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-07 10:12:50,585 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 1
+2024-04-07 10:12:50,585 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:50,585 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-07 10:12:50,585 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:50,585 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-07 10:12:50,585 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 2
+2024-04-07 10:12:50,585 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:50,585 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-07 10:12:50,585 INFO    HandlerThread:56084 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 10:12:50,585 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 10:12:50,585 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 10:12:50,585 DEBUG   SystemMonitor:56084 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 10:12:50,585 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 10:12:50,585 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined disk monitor
+2024-04-07 10:12:50,622 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:12:51,658 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-07 10:12:51,658 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined memory monitor
+2024-04-07 10:12:51,658 INFO    HandlerThread:56084 [interfaces.py:finish():202] Joined network monitor
+2024-04-07 10:12:51,658 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-07 10:12:51,659 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:51,659 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-07 10:12:51,659 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 3
+2024-04-07 10:12:51,659 DEBUG   SenderThread:56084 [sender.py:send():379] send: stats
+2024-04-07 10:12:51,659 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:51,659 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: poll_exit
+2024-04-07 10:12:51,659 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-07 10:12:51,659 DEBUG   SenderThread:56084 [sender.py:send():379] send: history
+2024-04-07 10:12:51,660 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: summary_record
+2024-04-07 10:12:51,660 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:12:51,660 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:51,660 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-07 10:12:51,660 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 4
+2024-04-07 10:12:51,660 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:51,660 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-07 10:12:51,660 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:51,660 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-07 10:12:51,660 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 5
+2024-04-07 10:12:51,660 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:51,660 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-07 10:12:51,660 DEBUG   SenderThread:56084 [sender.py:send():379] send: summary
+2024-04-07 10:12:51,661 INFO    SenderThread:56084 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 10:12:51,661 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:51,661 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-07 10:12:51,661 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 6
+2024-04-07 10:12:51,661 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:51,661 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-07 10:12:51,661 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:51,661 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-07 10:12:51,663 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 10:12:51,902 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 7
+2024-04-07 10:12:51,902 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:51,902 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-07 10:12:51,902 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:51,903 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-07 10:12:52,589 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-07 10:12:52,632 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/config.yaml
+2024-04-07 10:12:52,633 INFO    Thread-61 :56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:12:52,776 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 8
+2024-04-07 10:12:52,776 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: poll_exit
+2024-04-07 10:12:52,777 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:52,777 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-07 10:12:52,777 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:52,777 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-07 10:12:52,777 INFO    SenderThread:56084 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-07 10:12:52,777 INFO    SenderThread:56084 [job_builder.py:_get_source_type():466] no source found
+2024-04-07 10:12:52,777 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 9
+2024-04-07 10:12:52,777 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:52,777 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-07 10:12:52,777 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:52,777 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-07 10:12:52,777 INFO    SenderThread:56084 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-07 10:12:53,593 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-07 10:12:53,635 INFO    SenderThread:56084 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/output.log
+2024-04-07 10:12:53,636 INFO    SenderThread:56084 [dir_watcher.py:finish():388] scan: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files
+2024-04-07 10:12:53,636 INFO    SenderThread:56084 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/requirements.txt requirements.txt
+2024-04-07 10:12:53,636 INFO    SenderThread:56084 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/output.log output.log
+2024-04-07 10:12:53,636 INFO    SenderThread:56084 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/config.yaml config.yaml
+2024-04-07 10:12:53,637 INFO    SenderThread:56084 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json wandb-summary.json
+2024-04-07 10:12:53,638 INFO    SenderThread:56084 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-metadata.json wandb-metadata.json
+2024-04-07 10:12:53,640 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 10
+2024-04-07 10:12:53,641 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: poll_exit
+2024-04-07 10:12:53,641 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:53,641 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-07 10:12:53,642 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:53,643 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-07 10:12:53,643 INFO    SenderThread:56084 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-07 10:12:54,354 INFO    wandb-upload_1:56084 [upload_job.py:push():131] Uploaded file /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/requirements.txt
+2024-04-07 10:12:54,363 INFO    wandb-upload_2:56084 [upload_job.py:push():131] Uploaded file /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/config.yaml
+2024-04-07 10:12:54,434 INFO    wandb-upload_0:56084 [upload_job.py:push():131] Uploaded file /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/output.log
+2024-04-07 10:12:54,515 INFO    wandb-upload_3:56084 [upload_job.py:push():131] Uploaded file /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/files/wandb-summary.json
+2024-04-07 10:12:54,597 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-07 10:12:54,597 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: poll_exit
+2024-04-07 10:12:54,717 INFO    Thread-60 (_thread_body):56084 [sender.py:transition_state():614] send defer: 11
+2024-04-07 10:12:54,717 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:54,718 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-07 10:12:54,718 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:54,718 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-07 10:12:54,718 INFO    SenderThread:56084 [file_pusher.py:join():178] waiting for file pusher
+2024-04-07 10:12:54,719 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 12
+2024-04-07 10:12:54,721 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:54,722 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-07 10:12:54,723 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:54,723 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-07 10:12:54,723 INFO    SenderThread:56084 [file_stream.py:finish():614] file stream finish called
+2024-04-07 10:12:55,394 INFO    SenderThread:56084 [file_stream.py:finish():618] file stream finish is done
+2024-04-07 10:12:55,394 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 13
+2024-04-07 10:12:55,394 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:55,394 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-07 10:12:55,395 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:55,395 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-07 10:12:55,395 INFO    SenderThread:56084 [sender.py:transition_state():614] send defer: 14
+2024-04-07 10:12:55,395 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 10:12:55,395 INFO    HandlerThread:56084 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-07 10:12:55,395 DEBUG   SenderThread:56084 [sender.py:send():379] send: final
+2024-04-07 10:12:55,395 DEBUG   SenderThread:56084 [sender.py:send():379] send: footer
+2024-04-07 10:12:55,395 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: defer
+2024-04-07 10:12:55,395 INFO    SenderThread:56084 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-07 10:12:55,395 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-07 10:12:55,395 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: poll_exit
+2024-04-07 10:12:55,396 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 10:12:55,396 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: server_info
+2024-04-07 10:12:55,396 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-07 10:12:55,396 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-07 10:12:55,396 DEBUG   SenderThread:56084 [sender.py:send_request():406] send_request: server_info
+2024-04-07 10:12:55,620 DEBUG   HandlerThread:56084 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-07 10:12:55,621 INFO    HandlerThread:56084 [handler.py:finish():866] shutting down handler
+2024-04-07 10:12:56,401 INFO    WriterThread:56084 [datastore.py:close():296] close: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_100559-di4aj73t/run-di4aj73t.wandb
+2024-04-07 10:12:56,622 INFO    SenderThread:56084 [sender.py:finish():1546] shutting down sender
+2024-04-07 10:12:56,622 INFO    SenderThread:56084 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-07 10:12:56,622 INFO    SenderThread:56084 [file_pusher.py:join():178] waiting for file pusher

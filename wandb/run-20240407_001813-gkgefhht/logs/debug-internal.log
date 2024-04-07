@@ -1,0 +1,365 @@
+2024-04-07 00:18:13,849 INFO    StreamThr :40043 [internal.py:wandb_internal():86] W&B internal server running at pid: 40043, started at: 2024-04-07 00:18:13.849084
+2024-04-07 00:18:13,849 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status
+2024-04-07 00:18:13,850 INFO    WriterThread:40043 [datastore.py:open_for_write():87] open: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/run-gkgefhht.wandb
+2024-04-07 00:18:13,850 DEBUG   SenderThread:40043 [sender.py:send():379] send: header
+2024-04-07 00:18:13,850 DEBUG   SenderThread:40043 [sender.py:send():379] send: run
+2024-04-07 00:18:14,316 INFO    SenderThread:40043 [dir_watcher.py:__init__():211] watching files in: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files
+2024-04-07 00:18:14,316 INFO    SenderThread:40043 [sender.py:_start_run_threads():1124] run started: gkgefhht with start time 1712438293.848765
+2024-04-07 00:18:14,321 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: check_version
+2024-04-07 00:18:14,321 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: check_version
+2024-04-07 00:18:14,516 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: run_start
+2024-04-07 00:18:14,517 DEBUG   HandlerThread:40043 [system_info.py:__init__():26] System info init
+2024-04-07 00:18:14,517 DEBUG   HandlerThread:40043 [system_info.py:__init__():41] System info init done
+2024-04-07 00:18:14,517 INFO    HandlerThread:40043 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 00:18:14,517 INFO    SystemMonitor:40043 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 00:18:14,517 INFO    HandlerThread:40043 [system_monitor.py:probe():214] Collecting system info
+2024-04-07 00:18:14,519 DEBUG   HandlerThread:40043 [system_info.py:probe():150] Probing system
+2024-04-07 00:18:14,519 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 00:18:14,520 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started disk monitoring
+2024-04-07 00:18:14,523 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-07 00:18:14,524 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started memory monitoring
+2024-04-07 00:18:14,525 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started network monitoring
+2024-04-07 00:18:14,525 DEBUG   HandlerThread:40043 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-07 00:18:14,525 DEBUG   HandlerThread:40043 [system_info.py:probe():198] Probing system done
+2024-04-07 00:18:14,525 DEBUG   HandlerThread:40043 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-arm64-arm-64bit', 'python': '3.11.5', 'heartbeatAt': '2024-04-06T21:18:14.519077', 'startedAt': '2024-04-06T21:18:13.846189', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': '192.168.1.2', 'username': 'artemon', 'executable': '/Users/artemon/.local/share/virtualenvs/RNN-j8Y16Los/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'cpu_freq': {'current': 3228, 'min': 600, 'max': 3228}, 'cpu_freq_per_core': [{'current': 3228, 'min': 600, 'max': 3228}], 'disk': {'/': {'total': 926.3517189025879, 'used': 9.539703369140625}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 32.0}}
+2024-04-07 00:18:14,526 INFO    HandlerThread:40043 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-07 00:18:14,526 INFO    HandlerThread:40043 [system_monitor.py:probe():227] Publishing system info
+2024-04-07 00:18:14,526 INFO    HandlerThread:40043 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-07 00:18:14,526 DEBUG   SenderThread:40043 [sender.py:send():379] send: files
+2024-04-07 00:18:14,526 INFO    SenderThread:40043 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-07 00:18:14,568 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-07 00:18:14,568 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: python_packages
+2024-04-07 00:18:14,568 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 00:18:14,568 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 00:18:14,569 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 00:18:14,832 DEBUG   SenderThread:40043 [sender.py:send():379] send: telemetry
+2024-04-07 00:18:15,192 INFO    wandb-upload_0:40043 [upload_job.py:push():131] Uploaded file /var/folders/hk/5434dpv95nl2rxl497d7c0lm0000gn/T/tmpo3_cicwmwandb/yyzvu1o2-wandb-metadata.json
+2024-04-07 00:18:15,319 INFO    Thread-181:40043 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/requirements.txt
+2024-04-07 00:18:15,319 INFO    Thread-181:40043 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/wandb-metadata.json
+2024-04-07 00:18:18,977 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:18:23,765 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: pause
+2024-04-07 00:18:23,765 INFO    HandlerThread:40043 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-07 00:18:23,765 INFO    HandlerThread:40043 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 00:18:23,766 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 00:18:23,766 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 00:18:23,766 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 00:18:23,766 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined disk monitor
+2024-04-07 00:18:23,766 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 00:18:23,766 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-07 00:18:23,767 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined memory monitor
+2024-04-07 00:18:23,767 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined network monitor
+2024-04-07 00:18:23,768 DEBUG   SenderThread:40043 [sender.py:send():379] send: telemetry
+2024-04-07 00:18:23,768 DEBUG   SenderThread:40043 [sender.py:send():379] send: stats
+2024-04-07 00:18:24,773 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:18:29,573 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 00:18:29,573 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 00:18:29,574 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 00:18:29,782 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:18:34,795 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:18:39,808 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:18:44,577 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 00:18:44,577 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 00:18:44,577 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 00:18:45,773 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:18:47,443 INFO    Thread-181:40043 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/config.yaml
+2024-04-07 00:18:51,744 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:18:56,764 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:18:59,578 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 00:18:59,578 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 00:18:59,581 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 00:19:01,833 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:19:06,849 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:19:11,864 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:19:14,583 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 00:19:14,584 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 00:19:14,584 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 00:19:17,826 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:19:22,840 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:19:27,859 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:19:29,586 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 00:19:29,588 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 00:19:29,589 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 00:19:32,955 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:19:37,966 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:19:42,975 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:19:44,587 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 00:19:44,590 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 00:19:44,591 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 00:19:48,855 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:19:53,869 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:19:58,886 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:19:59,589 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 00:19:59,590 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 00:19:59,591 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 00:20:04,836 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:20:09,858 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:20:14,591 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 00:20:14,591 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 00:20:14,593 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 00:20:14,887 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:20:19,246 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: resume
+2024-04-07 00:20:19,246 INFO    HandlerThread:40043 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-07 00:20:19,247 INFO    HandlerThread:40043 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 00:20:19,248 INFO    SystemMonitor:40043 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 00:20:19,249 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 00:20:19,249 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started disk monitoring
+2024-04-07 00:20:19,251 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-07 00:20:19,253 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: pause
+2024-04-07 00:20:19,253 INFO    HandlerThread:40043 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-07 00:20:19,253 INFO    HandlerThread:40043 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 00:20:19,253 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started memory monitoring
+2024-04-07 00:20:19,254 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 00:20:19,254 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 00:20:19,254 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 00:20:19,254 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 00:20:19,254 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined disk monitor
+2024-04-07 00:20:20,187 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-07 00:20:20,187 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined memory monitor
+2024-04-07 00:20:20,187 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:20:20,187 DEBUG   SenderThread:40043 [sender.py:send():379] send: stats
+2024-04-07 00:20:21,370 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: resume
+2024-04-07 00:20:21,370 INFO    HandlerThread:40043 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-07 00:20:21,370 INFO    HandlerThread:40043 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 00:20:21,371 INFO    SystemMonitor:40043 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 00:20:21,371 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 00:20:21,371 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started disk monitoring
+2024-04-07 00:20:21,371 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-07 00:20:21,374 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: pause
+2024-04-07 00:20:21,375 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started memory monitoring
+2024-04-07 00:20:21,375 INFO    HandlerThread:40043 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-07 00:20:21,376 INFO    HandlerThread:40043 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 00:20:21,376 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 00:20:21,376 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started network monitoring
+2024-04-07 00:20:21,376 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined disk monitor
+2024-04-07 00:20:21,376 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 00:20:21,376 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 00:20:21,376 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 00:20:22,482 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-07 00:20:22,482 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined memory monitor
+2024-04-07 00:20:22,482 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined network monitor
+2024-04-07 00:20:22,482 DEBUG   SenderThread:40043 [sender.py:send():379] send: stats
+2024-04-07 00:20:25,356 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: resume
+2024-04-07 00:20:25,356 INFO    HandlerThread:40043 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-07 00:20:25,356 INFO    HandlerThread:40043 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 00:20:25,356 INFO    SystemMonitor:40043 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 00:20:25,357 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 00:20:25,358 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started disk monitoring
+2024-04-07 00:20:25,360 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-07 00:20:25,361 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: pause
+2024-04-07 00:20:25,361 INFO    HandlerThread:40043 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-07 00:20:25,361 INFO    HandlerThread:40043 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 00:20:25,362 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 00:20:25,362 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started memory monitoring
+2024-04-07 00:20:25,362 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 00:20:25,362 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 00:20:25,362 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 00:20:25,363 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined disk monitor
+2024-04-07 00:20:26,501 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-07 00:20:26,501 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined memory monitor
+2024-04-07 00:20:26,501 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:20:26,501 DEBUG   SenderThread:40043 [sender.py:send():379] send: stats
+2024-04-07 00:20:27,529 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: resume
+2024-04-07 00:20:27,529 INFO    HandlerThread:40043 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-07 00:20:27,529 INFO    HandlerThread:40043 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 00:20:27,529 INFO    SystemMonitor:40043 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 00:20:27,530 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 00:20:27,533 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started disk monitoring
+2024-04-07 00:20:27,536 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-07 00:20:27,537 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started memory monitoring
+2024-04-07 00:20:27,538 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started network monitoring
+2024-04-07 00:20:27,538 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: pause
+2024-04-07 00:20:27,538 INFO    HandlerThread:40043 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-07 00:20:27,539 INFO    HandlerThread:40043 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 00:20:27,539 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 00:20:27,539 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 00:20:27,539 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 00:20:27,539 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 00:20:27,540 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined disk monitor
+2024-04-07 00:20:28,647 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-07 00:20:28,648 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined memory monitor
+2024-04-07 00:20:28,648 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined network monitor
+2024-04-07 00:20:28,648 DEBUG   SenderThread:40043 [sender.py:send():379] send: stats
+2024-04-07 00:20:29,595 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 00:20:29,595 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-07 00:20:29,595 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: stop_status
+2024-04-07 00:20:30,102 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: resume
+2024-04-07 00:20:30,102 INFO    HandlerThread:40043 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-07 00:20:30,102 INFO    HandlerThread:40043 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 00:20:30,102 INFO    SystemMonitor:40043 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 00:20:30,103 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 00:20:30,103 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started disk monitoring
+2024-04-07 00:20:30,104 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: pause
+2024-04-07 00:20:30,104 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-07 00:20:30,106 INFO    HandlerThread:40043 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-07 00:20:30,108 INFO    HandlerThread:40043 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 00:20:30,108 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started memory monitoring
+2024-04-07 00:20:30,108 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 00:20:30,108 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 00:20:30,108 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 00:20:30,111 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 00:20:30,111 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined disk monitor
+2024-04-07 00:20:31,232 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-07 00:20:31,232 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined memory monitor
+2024-04-07 00:20:31,233 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:20:31,233 DEBUG   SenderThread:40043 [sender.py:send():379] send: stats
+2024-04-07 00:20:31,278 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: resume
+2024-04-07 00:20:31,278 INFO    HandlerThread:40043 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-07 00:20:31,278 INFO    HandlerThread:40043 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 00:20:31,278 INFO    SystemMonitor:40043 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 00:20:31,279 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 00:20:31,279 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started disk monitoring
+2024-04-07 00:20:31,281 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-07 00:20:31,284 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started memory monitoring
+2024-04-07 00:20:31,284 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started network monitoring
+2024-04-07 00:20:32,179 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: pause
+2024-04-07 00:20:32,180 INFO    HandlerThread:40043 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-07 00:20:32,180 INFO    HandlerThread:40043 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 00:20:32,180 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 00:20:32,180 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 00:20:32,180 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined disk monitor
+2024-04-07 00:20:32,181 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 00:20:32,181 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 00:20:32,323 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-07 00:20:32,323 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined memory monitor
+2024-04-07 00:20:32,323 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined network monitor
+2024-04-07 00:20:32,346 DEBUG   SenderThread:40043 [sender.py:send():379] send: stats
+2024-04-07 00:20:35,084 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: resume
+2024-04-07 00:20:35,084 INFO    HandlerThread:40043 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-07 00:20:35,084 INFO    HandlerThread:40043 [system_monitor.py:start():194] Starting system monitor
+2024-04-07 00:20:35,084 INFO    SystemMonitor:40043 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-07 00:20:35,085 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started cpu monitoring
+2024-04-07 00:20:35,086 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started disk monitoring
+2024-04-07 00:20:35,086 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-07 00:20:35,088 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started memory monitoring
+2024-04-07 00:20:35,090 INFO    SystemMonitor:40043 [interfaces.py:start():190] Started network monitoring
+2024-04-07 00:20:35,130 DEBUG   SenderThread:40043 [sender.py:send():379] send: telemetry
+2024-04-07 00:20:35,134 DEBUG   SenderThread:40043 [sender.py:send():379] send: exit
+2024-04-07 00:20:35,134 INFO    SenderThread:40043 [sender.py:send_exit():586] handling exit code: 0
+2024-04-07 00:20:35,134 INFO    SenderThread:40043 [sender.py:send_exit():588] handling runtime: 15
+2024-04-07 00:20:35,135 INFO    SenderThread:40043 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 00:20:35,137 INFO    SenderThread:40043 [sender.py:send_exit():594] send defer
+2024-04-07 00:20:35,137 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:35,137 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-07 00:20:35,137 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:35,137 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-07 00:20:35,137 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 1
+2024-04-07 00:20:35,137 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:35,137 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-07 00:20:35,137 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:35,137 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-07 00:20:35,137 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 2
+2024-04-07 00:20:35,137 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:35,138 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-07 00:20:35,138 INFO    HandlerThread:40043 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-07 00:20:35,138 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-07 00:20:35,138 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-07 00:20:35,138 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-07 00:20:35,138 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined disk monitor
+2024-04-07 00:20:35,138 DEBUG   SystemMonitor:40043 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-07 00:20:35,803 INFO    Thread-181:40043 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/wandb-summary.json
+2024-04-07 00:20:35,992 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-07 00:20:35,992 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined memory monitor
+2024-04-07 00:20:35,992 INFO    HandlerThread:40043 [interfaces.py:finish():202] Joined network monitor
+2024-04-07 00:20:35,992 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:35,992 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-07 00:20:35,992 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 3
+2024-04-07 00:20:35,992 DEBUG   SenderThread:40043 [sender.py:send():379] send: stats
+2024-04-07 00:20:35,992 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:35,992 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-07 00:20:35,992 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:20:35,992 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:35,992 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-07 00:20:35,992 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 4
+2024-04-07 00:20:35,992 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:35,993 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-07 00:20:35,993 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:35,993 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-07 00:20:35,993 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 5
+2024-04-07 00:20:35,993 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:35,993 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-07 00:20:35,993 DEBUG   SenderThread:40043 [sender.py:send():379] send: summary
+2024-04-07 00:20:35,993 INFO    SenderThread:40043 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-07 00:20:35,993 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:35,993 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-07 00:20:35,993 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 6
+2024-04-07 00:20:35,993 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:35,993 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-07 00:20:35,993 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:35,993 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-07 00:20:35,995 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: status_report
+2024-04-07 00:20:36,139 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-07 00:20:36,183 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 7
+2024-04-07 00:20:36,183 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: poll_exit
+2024-04-07 00:20:36,185 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:36,185 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-07 00:20:36,185 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:36,185 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-07 00:20:36,185 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 8
+2024-04-07 00:20:36,185 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:36,185 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-07 00:20:36,185 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:36,185 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-07 00:20:36,186 INFO    SenderThread:40043 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-07 00:20:36,188 INFO    SenderThread:40043 [job_builder.py:_get_source_type():466] no source found
+2024-04-07 00:20:36,188 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 9
+2024-04-07 00:20:36,188 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:36,188 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-07 00:20:36,188 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:36,188 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-07 00:20:36,188 INFO    SenderThread:40043 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-07 00:20:36,806 INFO    SenderThread:40043 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/config.yaml
+2024-04-07 00:20:36,806 INFO    SenderThread:40043 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/wandb-summary.json
+2024-04-07 00:20:36,806 INFO    SenderThread:40043 [dir_watcher.py:finish():388] scan: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files
+2024-04-07 00:20:36,807 INFO    SenderThread:40043 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/requirements.txt requirements.txt
+2024-04-07 00:20:36,807 INFO    SenderThread:40043 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/config.yaml config.yaml
+2024-04-07 00:20:36,807 INFO    SenderThread:40043 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/wandb-summary.json wandb-summary.json
+2024-04-07 00:20:36,807 INFO    SenderThread:40043 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/wandb-metadata.json wandb-metadata.json
+2024-04-07 00:20:36,807 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 10
+2024-04-07 00:20:36,808 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:36,808 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-07 00:20:36,811 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:36,811 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-07 00:20:36,812 INFO    SenderThread:40043 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-07 00:20:37,142 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-07 00:20:37,142 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: poll_exit
+2024-04-07 00:20:37,255 INFO    wandb-upload_0:40043 [upload_job.py:push():131] Uploaded file /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/requirements.txt
+2024-04-07 00:20:37,327 INFO    wandb-upload_1:40043 [upload_job.py:push():131] Uploaded file /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/config.yaml
+2024-04-07 00:20:37,368 INFO    wandb-upload_2:40043 [upload_job.py:push():131] Uploaded file /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/files/wandb-summary.json
+2024-04-07 00:20:37,573 INFO    Thread-180 (_thread_body):40043 [sender.py:transition_state():614] send defer: 11
+2024-04-07 00:20:37,573 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:37,573 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-07 00:20:37,573 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:37,573 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-07 00:20:37,573 INFO    SenderThread:40043 [file_pusher.py:join():178] waiting for file pusher
+2024-04-07 00:20:37,574 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 12
+2024-04-07 00:20:37,574 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:37,574 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-07 00:20:37,574 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:37,574 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-07 00:20:37,574 INFO    SenderThread:40043 [file_stream.py:finish():614] file stream finish called
+2024-04-07 00:20:38,131 INFO    SenderThread:40043 [file_stream.py:finish():618] file stream finish is done
+2024-04-07 00:20:38,132 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 13
+2024-04-07 00:20:38,132 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:38,132 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-07 00:20:38,132 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:38,132 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-07 00:20:38,133 INFO    SenderThread:40043 [sender.py:transition_state():614] send defer: 14
+2024-04-07 00:20:38,133 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: defer
+2024-04-07 00:20:38,133 INFO    HandlerThread:40043 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-07 00:20:38,133 DEBUG   SenderThread:40043 [sender.py:send():379] send: final
+2024-04-07 00:20:38,133 DEBUG   SenderThread:40043 [sender.py:send():379] send: footer
+2024-04-07 00:20:38,133 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: defer
+2024-04-07 00:20:38,133 INFO    SenderThread:40043 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-07 00:20:38,134 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-07 00:20:38,135 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: poll_exit
+2024-04-07 00:20:38,135 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-07 00:20:38,135 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: server_info
+2024-04-07 00:20:38,136 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-07 00:20:38,136 DEBUG   SenderThread:40043 [sender.py:send_request():406] send_request: server_info
+2024-04-07 00:20:38,137 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-07 00:20:38,326 DEBUG   HandlerThread:40043 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-07 00:20:38,327 INFO    HandlerThread:40043 [handler.py:finish():866] shutting down handler
+2024-04-07 00:20:39,137 INFO    WriterThread:40043 [datastore.py:close():296] close: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240407_001813-gkgefhht/run-gkgefhht.wandb
+2024-04-07 00:20:39,328 INFO    SenderThread:40043 [sender.py:finish():1546] shutting down sender
+2024-04-07 00:20:39,328 INFO    SenderThread:40043 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-07 00:20:39,328 INFO    SenderThread:40043 [file_pusher.py:join():178] waiting for file pusher

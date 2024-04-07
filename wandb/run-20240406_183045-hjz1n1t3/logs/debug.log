@@ -1,0 +1,74 @@
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Configure stats pid to 21539
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Loading settings from /Users/artemon/.config/wandb/settings
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Loading settings from /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/settings
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_init.py:_log_setup():521] Logging user logs to /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240406_183045-hjz1n1t3/logs/debug.log
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_init.py:_log_setup():522] Logging internal logs to /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240406_183045-hjz1n1t3/logs/debug-internal.log
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_init.py:_jupyter_setup():467] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x34a2a4250>
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_init.py:init():561] calling init triggers
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {}
+2024-04-06 18:30:45,215 INFO    MainThread:21539 [wandb_init.py:init():586] re-initializing run, found existing run on stack: jzejdovt
+2024-04-06 18:30:45,216 INFO    MainThread:21539 [wandb_run.py:_finish():2064] finishing run artem-tm/PRAC_RNN/jzejdovt
+2024-04-06 18:30:45,216 INFO    MainThread:21539 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2024-04-06 18:30:45,217 INFO    MainThread:21539 [wandb_run.py:_restore():2287] restore
+2024-04-06 18:30:45,217 INFO    MainThread:21539 [wandb_run.py:_restore():2293] restore done
+2024-04-06 18:30:48,744 INFO    MainThread:21539 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-06 18:30:48,744 INFO    MainThread:21539 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-06 18:30:48,749 INFO    MainThread:21539 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-04-06 18:30:48,809 INFO    MainThread:21539 [wandb_init.py:init():611] starting backend
+2024-04-06 18:30:48,809 INFO    MainThread:21539 [wandb_init.py:init():615] setting up manager
+2024-04-06 18:30:48,811 INFO    MainThread:21539 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-06 18:30:48,811 INFO    MainThread:21539 [wandb_init.py:init():623] backend started and connected
+2024-04-06 18:30:48,813 INFO    MainThread:21539 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-06 18:30:48,813 INFO    MainThread:21539 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-06 18:30:48,813 INFO    MainThread:21539 [wandb_init.py:init():715] updated telemetry
+2024-04-06 18:30:48,813 INFO    MainThread:21539 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-06 18:30:50,228 INFO    MainThread:21539 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-06 18:30:50,430 INFO    MainThread:21539 [wandb_run.py:_on_init():2366] got version response 
+2024-04-06 18:30:50,431 INFO    MainThread:21539 [wandb_init.py:init():799] starting run threads in backend
+2024-04-06 18:30:50,487 INFO    MainThread:21539 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-06 18:30:50,487 INFO    MainThread:21539 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-06 18:30:50,487 INFO    MainThread:21539 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-06 18:30:50,487 INFO    MainThread:21539 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-06 18:30:50,488 INFO    MainThread:21539 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-06 18:30:50,543 INFO    MainThread:21539 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-06 18:30:50,543 INFO    MainThread:21539 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-06 18:33:15,792 INFO    MainThread:21539 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-06 18:33:15,795 INFO    MainThread:21539 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-06 18:33:15,795 INFO    MainThread:21539 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-06 18:33:23,553 INFO    MainThread:21539 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-06 18:33:23,554 INFO    MainThread:21539 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-06 18:33:23,554 INFO    MainThread:21539 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-06 18:33:25,579 INFO    MainThread:21539 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-06 18:33:25,592 INFO    MainThread:21539 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-06 18:33:25,592 INFO    MainThread:21539 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-06 18:33:26,641 INFO    MainThread:21539 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-06 18:33:26,645 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-06 18:33:26,645 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Configure stats pid to 21539
+2024-04-06 18:33:26,645 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Loading settings from /Users/artemon/.config/wandb/settings
+2024-04-06 18:33:26,645 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Loading settings from /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/settings
+2024-04-06 18:33:26,645 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-06 18:33:26,645 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-06 18:33:26,645 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-06 18:33:26,645 INFO    MainThread:21539 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-06 18:33:26,645 INFO    MainThread:21539 [wandb_init.py:_log_setup():521] Logging user logs to /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240406_183326-q4gdzomk/logs/debug.log
+2024-04-06 18:33:26,645 INFO    MainThread:21539 [wandb_init.py:_log_setup():522] Logging internal logs to /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/RNN/wandb/run-20240406_183326-q4gdzomk/logs/debug-internal.log
+2024-04-06 18:33:26,645 INFO    MainThread:21539 [wandb_init.py:init():561] calling init triggers
+2024-04-06 18:33:26,645 INFO    MainThread:21539 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {}
+2024-04-06 18:33:26,646 INFO    MainThread:21539 [wandb_init.py:init():586] re-initializing run, found existing run on stack: hjz1n1t3
+2024-04-06 18:33:26,646 INFO    MainThread:21539 [wandb_run.py:_finish():2064] finishing run artem-tm/PRAC_RNN/hjz1n1t3
+2024-04-06 18:33:26,647 ERROR   MainThread:21539 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-04-06 18:33:26,647 INFO    MainThread:21539 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-06 18:33:26,647 INFO    MainThread:21539 [wandb_init.py:_jupyter_teardown():449] cleaning up jupyter logic
+2024-04-06 18:33:26,647 INFO    MainThread:21539 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2024-04-06 18:33:26,647 INFO    MainThread:21539 [wandb_run.py:_restore():2287] restore
+2024-04-06 18:33:26,647 INFO    MainThread:21539 [wandb_run.py:_restore():2293] restore done
+2024-04-06 18:33:32,637 INFO    MainThread:21539 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-06 18:33:32,638 INFO    MainThread:21539 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-06 18:33:32,643 INFO    MainThread:21539 [wandb_run.py:_footer_sync_info():3895] logging synced files

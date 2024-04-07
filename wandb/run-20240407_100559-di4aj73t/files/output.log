@@ -1,0 +1,5 @@
+
+Epoch: 1/15. Loss (Train/Test): 0.032/0.006. Accuracy (Train/Test): 0.220/0.220
+Epoch: 2/15. Loss (Train/Test): 0.029/0.006. Accuracy (Train/Test): 0.315/0.314
+[{"variableName": "batch", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "test_accuracies_semeniut", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "test_losses_semeniut", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_accuracies_semeniut", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_lossess_semeniut", "type": "list", "supportedEngines": ["pandas"]}]
+[{"variableName": "batch", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "test_accuracies_semeniut", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "test_losses_semeniut", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_accuracies_semeniut", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_lossess_semeniut", "type": "list", "supportedEngines": ["pandas"]}]

@@ -1,0 +1,16 @@
+
+Epoch: 1/15. Loss (Train/Test): 0.031/0.006. Accuracy (Train/Test): 0.267/0.265
+Epoch: 2/15. Loss (Train/Test): 0.027/0.006. Accuracy (Train/Test): 0.337/0.328
+Epoch: 3/15. Loss (Train/Test): 0.025/0.005. Accuracy (Train/Test): 0.375/0.344
+Epoch: 4/15. Loss (Train/Test): 0.024/0.005. Accuracy (Train/Test): 0.393/0.354
+Epoch: 5/15. Loss (Train/Test): 0.023/0.005. Accuracy (Train/Test): 0.428/0.359
+Epoch: 6/15. Loss (Train/Test): 0.022/0.005. Accuracy (Train/Test): 0.455/0.374
+Epoch: 7/15. Loss (Train/Test): 0.020/0.005. Accuracy (Train/Test): 0.483/0.374
+Epoch: 8/15. Loss (Train/Test): 0.020/0.005. Accuracy (Train/Test): 0.511/0.369
+Epoch: 9/15. Loss (Train/Test): 0.018/0.006. Accuracy (Train/Test): 0.536/0.378
+Epoch: 10/15. Loss (Train/Test): 0.017/0.006. Accuracy (Train/Test): 0.589/0.361
+Epoch: 11/15. Loss (Train/Test): 0.015/0.006. Accuracy (Train/Test): 0.629/0.365
+Epoch: 12/15. Loss (Train/Test): 0.014/0.006. Accuracy (Train/Test): 0.675/0.359
+Epoch: 13/15. Loss (Train/Test): 0.013/0.007. Accuracy (Train/Test): 0.695/0.344
+Epoch: 14/15. Loss (Train/Test): 0.012/0.007. Accuracy (Train/Test): 0.731/0.342
+Epoch: 15/15. Loss (Train/Test): 0.011/0.008. Accuracy (Train/Test): 0.759/0.338

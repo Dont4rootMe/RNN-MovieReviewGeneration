@@ -1,6 +1,0 @@
-128 32
-32 128
-torch.Size([200, 64, 32])
-torch.Size([64, 32])
-torch.Size([32, 128])
-torch.Size([32, 128])

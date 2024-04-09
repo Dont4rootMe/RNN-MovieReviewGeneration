@@ -1,5 +1,0 @@
-
-torch.Size([32, 128]) torch.Size([64, 32]) torch.Size([32, 128])
-[]
-[]
-32 128
